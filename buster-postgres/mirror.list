@@ -1,0 +1,12 @@
+set base_path      /mirrors
+set run_postmirror 0
+set nthreads       20
+set _tilde         0
+
+deb http://security.debian.org/ buster/updates main contrib
+# deb-src http://security.debian.org/ buster/updates main contrib
+deb http://ftp.tw.debian.org/debian/ buster main contrib
+# deb-src http://ftp.tw.debian.org/debian/ buster main contrib
+deb http://apt.postgresql.org/pub/repos/apt/ buster-pgdg main
+
+# clean http://ftp.tw.debian.org/debian/
